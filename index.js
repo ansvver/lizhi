@@ -10,8 +10,8 @@ glob("./music/**/*.*", {}, function (er, files) {
       result.push({
         name: arr[3],
         artist: "专辑-"+arr[2],
-        url: 'https://cdn.jsdelivr.net/gh/goldsubmarine/lizhi@master' + item.slice(1),
-        cover: 'https://cdn.jsdelivr.net/gh/goldsubmarine/lizhi@master/cover.png',
+        url: 'https://cdn.jsdelivr.net/gh/goldsubmarine/lizhi' + item.slice(1),
+        cover: 'https://cdn.jsdelivr.net/gh/goldsubmarine/lizhi/cover.png',
       })
     }
   })
