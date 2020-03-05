@@ -1,14 +1,14 @@
-# lizhi
+# 南京李志
 
-本项目使用 `APlayer` 作为播放器，通过 `jsdelivr` 实现 CDN ，中国也可高速访问。
+本项目使用 `APlayer` 作为播放器，通过 `jsdelivr` 实现 CDN ，国内也可高速访问。
 
 ## 在线播放
 
-:point_right: [https://goldsubmarine.github.io/lizhi](https://goldsubmarine.github.io/lizhi)
+:point_right: [https://goldsubmarine.github.io/lizhi/](https://goldsubmarine.github.io/lizhi/)
 
 ## 收录专辑
 
-:zap: live
+:zap: **LIVE**
 
 - 108个关键词
 - io
@@ -23,7 +23,7 @@
 - 广场
 - 零碎
 
-:zap: 专辑
+:zap: **专辑**
 
 - 8
 - 1701
