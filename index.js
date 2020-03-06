@@ -13,6 +13,8 @@ glob("./music/**/*.*", {}, function (er, files) {
         url: 'https://cdn.jsdelivr.net/gh/goldsubmarine/lizhi' + item.slice(1),
         cover: 'https://cdn.jsdelivr.net/gh/goldsubmarine/lizhi/cover.png',
       })
+    } else {
+      console.log(item)
     }
   })
   fs.writeFileSync('./list.js', "var list = " + JSON.stringify(result))
