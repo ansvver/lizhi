@@ -3,6 +3,7 @@ var fs = require("fs")
  
 glob("./music/**/*.*", {}, function (er, files) {
   let result = []
+  let download = ''
   files.forEach(item => {
     let fileInfo = fs.statSync(item)
     if(fileInfo.size/(1024*1024) < 20) {    // 小于20M
@@ -13,10 +14,11 @@ glob("./music/**/*.*", {}, function (er, files) {
         url: 'https://cdn.jsdelivr.net/gh/goldsubmarine/lizhi' + item.slice(1),
         cover: 'https://cdn.jsdelivr.net/gh/goldsubmarine/lizhi/cover.png',
       })
+      download += `https://cdn.jsdelivr.net/gh/goldsubmarine/lizhi${item.slice(1)}\n`
     } else {
       console.log(item)
     }
   })
   fs.writeFileSync('./list.js', "var list = " + JSON.stringify(result))
-
+  fs.writeFileSync('./download.txt', download)
 })
