@@ -6,6 +6,10 @@
 
 :point_right: [https://goldsubmarine.github.io/lizhi/](https://goldsubmarine.github.io/lizhi/)
 
+## 下载
+
+:fire: 复制 `download.txt` 中的内容到迅雷或 Motrix 中，即可下载全部歌曲
+
 ## 收录专辑
 
 :zap: **LIVE**
@@ -35,6 +39,3 @@
 - 这个世界会好吗
 - F
 
-:fire: **下载**
-
-复制 `download.txt` 中的内容到迅雷或 Motrix 中，即可下载全部歌曲
